@@ -1,0 +1,115 @@
+.contact-main{
+    margin-top: 100px;
+    text-align: center;
+}
+.contact-main h6{
+    font-size: 14px;
+    letter-spacing: 5px;
+    color: rgb(220, 5, 5);
+}
+.contact-main h1{
+    font-weight: bolder;
+}
+.contact-main p{
+    color: gray;
+    padding: 0% 20%;
+}
+.contact-form{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgb(241, 241, 241);
+}
+.contact-form input{
+    width: 90%;
+    height: 50px;
+    margin: 1% 5%;
+    border: none;
+}
+.input-row{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin: 1% 5%;
+    gap: 10px;
+}
+.input-row input{
+    margin: 0%;
+    /* margin: 0% 5%; */
+    border: none;
+}
+.contact-form textarea{
+    height: 150px;
+    width: 90%;
+    margin: 1% 5%;
+    border: none;
+}
+
+.contact-form button{
+    width: fit-content;
+    padding: 2% 4%;
+    border: none;
+    background-color:rgb(220, 5, 5);
+    color: white;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.contact-info{
+    width: 50%;
+    margin: 0% 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+/* .info-logo{
+    background-color:rgb(220, 5, 5);
+    width: 60px;
+    height: 40px;
+    border-radius: 100%;
+} */
+.info-logo i{
+    background-color:rgb(220, 5, 5);
+    color: white;
+    padding: 15px;
+    font-size: 18px;
+    /* padding-left: 10px; */
+    /* padding-top: 10px; */
+    /* padding: 20px; */
+   border-radius: 100%;
+}
+.info-head p{
+    color: gray;
+}
+.info-sec{
+   display: flex;
+   justify-content: left;
+   gap: 30px;
+   margin-bottom: 30px;
+   /* border: 1px solid black; */
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.map-container{
+    width: 90%;
+    margin: 0% 5%;
+    margin-bottom: 100px;
+}
+@media  screen and (max-width:450px){
+    .contact{
+        flex-direction: column;
+        width: 80%;
+        margin: 0% 10%;
+    }
+    .contact-info{
+        width: 100%;
+        margin: 0%;
+    }
+    .info-head p{
+        padding: 0%;
+    }
+}
